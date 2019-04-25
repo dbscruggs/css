@@ -1,0 +1,163 @@
+#indexBody {
+  /* background-color:#eefa86; */
+  background-color:white;
+  padding-left:0px;
+}
+header {
+text-align:center;
+font-size:15px;
+}
+#mainBody {
+  width: 85%;
+  margin: 0 auto;
+  padding-left:0px;
+  padding-top: 100px;
+}
+aside {
+  border:1px solid black;
+  float:left;
+  background-color:gray;
+  width:15%;
+  padding-left:0px;
+}
+ul {
+  list-style:none;
+}
+table {
+  /* background-color:#6f7c15; */
+  background-color:#172357;
+  border-right:2px solid #7b84ae;
+  border-left:2px solid #7b84ae;
+  border-bottom:1.5px solid #7b84ae;
+  /* border-top:1.5px solid #485300; */
+  border-top:1.5px solid #7b84ae;
+  /* border:3px solid #6f7c15; */
+  width:340px;
+  position:relative;
+  padding:0px;
+  border-spacing:0px;
+
+}
+
+.tableRow {
+line-height:24px;
+padding:0px;
+margin-left:0px;
+}
+.tableData {
+line-height:24px;
+}
+.leftCell, .rightCell {
+  width:18%;
+  background-color: #515d91;
+  padding:0px;
+  margin:0px;
+  border:0px;
+  line-height:24px;
+}
+
+a {
+  text-decoration:none;
+  color:#eefa86;
+}
+
+@keyframes tables {
+  /*
+from{ background-color:#172357;left:0px;top:0px;}
+to {background-color:#0000009;  left:40px;top:0px;}
+*/
+}
+table:hover {
+   animation-name:tables;
+  animation-duration:.6s;
+  animation-iteration-count:1;
+  animation-fill-mode:both;
+  /*height:20px;
+  width:300px;*/
+transform: scale(1.2,1.2);
+transition: transform 0.2s; 
+  position:relative;
+}
+
+#projects, #about, #contact, #something  {
+  margin: 0 auto;
+font-size:12px;
+padding:0px;
+  /* border:1px solid black; */
+  /* width: 480px; */
+}
+tr, td {
+  text-align:center;
+}
+
+/*----------About.html------------------*/
+#aboutBody{
+background-color:white;
+}
+#aboutTitle {
+text-align:center;
+width:520px;
+border:1px solid #7b84ae;
+background-color:#7b84ae;
+border-bottom:3px solid #172357;
+margin: 0 auto;
+padding-left:14px;
+padding-right:14px;
+font-size:14px;
+}
+#aboutMe {
+  border-top:3px solid #7b84ae;
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-left:15px;
+  padding-right:15px;
+  width: 520px;
+  margin:0 auto;
+  background-color:#172357;
+}
+
+/*-------------contact.html---------------*/
+
+
+#divForm {
+  background-color:#172357;
+  width:520px;
+  margin: 0 auto;
+  border:1px solid black;
+}
+
+#form {
+  margin:0 auto;
+padding-bottom:3px;
+  width: 420px;
+  text-align:center;
+
+}
+#data {
+  margin:0 auto;
+  padding-top:5px;
+  padding-bottom:3px;
+  align-content:center;
+  width:400px;
+}
+#nav {
+  width:520px;
+  margin:0 auto;
+  text-align:center;
+  background-color: #515d91;
+  padding-bottom:0px;
+}
+#header {
+  width:520px;
+  margin:0 auto;
+  text-align:center;
+  background-color: #515d91
+}
+
+#footer {
+  width:520px;
+  margin:0 auto;
+  text-align:center;
+  background-color: #515d91
+
+}
